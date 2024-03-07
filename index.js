@@ -28,6 +28,6 @@ function axiosDownloadFile(url, fileName) {
     });
 }
 
-const fileURL = 'http://localhost:39693/example-file.pdf';
+const fileURL = 'http://localhost:3000/example-file.pdf';
 
 axiosDownloadFile(fileURL, 'my-file.pdf');
